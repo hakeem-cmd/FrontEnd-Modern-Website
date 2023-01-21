@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+    scroll-behavior:smooth
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    background: var(--color-bg);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{
+    color: unset;
+    text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.gradient__bg{
+                  
+    background:-moz-radial-gradient(circle at 8% 27%, rgb(71, 17, 73) 0%, rgb(18, 66, 117) 50%, rgb(76, 81, 179) 99%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 8% 27%, rgb(55, 32, 117) 0%, rgba(0, 40, 83, 1) 50%, rgba(4, 5, 24, 1) 99%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 8% 27%, rgb(65, 57, 143) 0%, rgba(0, 40, 83, 1) 50%, rgba(4, 5, 24, 1) 99%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 8% 27%, rgb(34, 36, 163) 0%, rgba(0, 40, 83, 1) 50%, rgba(4, 5, 24, 1) 99%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 8% 27%, rgb(64, 41, 167) 0%, rgb(179, 158, 134) 50%, rgba(4, 5, 24, 1) 99%);
 }
 
-.App-link {
-  color: #61dafb;
+.gradient__text{
+    background:var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clop: text;
+    -webkit-text-fill-color: transparent;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section__padding{
+    padding: 4rem 6 rem
 }
+
+.section__margin{
+    margin: 4rem 6rem
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @keyframes scale-up-center{0%{transform:scale(.5)}100%{transform:scale(1)}}
+
+ @media screen and (max-width:700px){
+    .section__padding{
+        padding: 4rem
+    }
+    .section__margin{
+        padding: 4rem
+    }
+ }
+
+ @media screen and (max-width:550px){
+    .section__padding{
+        padding: 4rem 2rem
+    }
+    .section__margin{
+        padding: 4rem 2rem
+    }
+ }
