@@ -1,12 +1,18 @@
 import React from 'react'
 import './feature.css'
 
-const feature = () => {
+const Feature = (props) => {
   return (
-    <div>
-      <h1>Feature</h1>
+    <div className="gpt3__features-container__feature">
+      <div className="gpt3__features-container__feature-title">
+        <div />
+        <h1>{props.title}</h1>
+      </div>
+        <div className='gpt3__features-container_feature-text'>
+          <p>{props.text}</p>
+        </div>
     </div>
   )
 }
 
-export default feature
+export default Feature

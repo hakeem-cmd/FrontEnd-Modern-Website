@@ -5,7 +5,7 @@ import ai from "../../Assets/ai.png"
 
 const Header = () => {
     return (
-        <div className="gpt3__header section__padding" id="home">
+        <div className="gpt3__header section__padding" id="header">
             <div className="gpt3__header-content">
                 <h1 className="gradient_text"> Welcome to the future. Seamless technology at your disposal</h1>
                 <p>Yet bed any for traveling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>

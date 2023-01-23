@@ -3,10 +3,10 @@
 :root {
   --font-family: 'Manrope', sans-serif;
 
-  --gradient-text: linear-gradient(89.97deg, #966fc0 1.84%, #F49867 102.67%);
+  --gradient-text: linear-gradient(89.97deg, #ad2d0d 1.84%, #350780 102.67%);
   --gradient-bar: linear-gradient(103.22deg, #a489c0 -13.86%, #F49867 99.55%);
   
-  --color-bg: #311B92;
+  --color-bg: #180304;
   --color-footer : #031B34;
   --color-blog: #042c54;
   --color-text: #81AFDD;
