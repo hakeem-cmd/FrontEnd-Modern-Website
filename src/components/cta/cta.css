@@ -10,7 +10,7 @@
     padding: 2rem;
     margin: 4rem;
     border-radius: 1rem;
-    background: radial-gradient(circle at 8% 27%, rgb(18, 10, 54) 0%, rgb(83, 63, 41) 50%, rgba(4, 5, 24, 1) 99%);
+    background:radial-gradient(circle at 8% 27%, rgb(7, 1, 36) 0%, rgb(59, 153, 114) 50%, rgba(4, 5, 24, 1) 99%);
 }
 
 .gpt3__cta-content p{

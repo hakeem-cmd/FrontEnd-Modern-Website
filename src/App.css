@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
     padding: 0%;
@@ -6,7 +7,7 @@
 }
 
 body{
-    background: var(--color-bg);
+    background-image: url("../src/Assets/background.png");
 }
 
 a{
@@ -15,20 +16,9 @@ a{
 }
 
 .gradient__bg{
-                  
-    background:-moz-radial-gradient(circle at 8% 27%, rgb(71, 17, 73) 0%, rgb(18, 66, 117) 50%, rgb(76, 81, 179) 99%);
-
-    /* safari 5.1+,chrome 10+ */
-    background:-webkit-radial-gradient(circle at 8% 27%, rgb(55, 32, 117) 0%, rgba(0, 40, 83, 1) 50%, rgba(4, 5, 24, 1) 99%);
-
-    /* opera 11.10+ */
-    background:-o-radial-gradient(circle at 8% 27%, rgb(65, 57, 143) 0%, rgba(0, 40, 83, 1) 50%, rgba(4, 5, 24, 1) 99%);
-
-    /* ie 10+ */
-    background:-ms-radial-gradient(circle at 8% 27%, rgb(34, 36, 163) 0%, rgba(0, 40, 83, 1) 50%, rgba(4, 5, 24, 1) 99%);
 
     /* global 92%+ browsers support */
-    background:radial-gradient(circle at 8% 27%, rgb(64, 41, 167) 0%, rgb(204, 131, 48) 50%, rgba(4, 5, 24, 1) 99%);
+    background:radial-gradient(circle at 8% 27%, rgb(7, 1, 36) 0%, rgb(59, 153, 114) 50%, rgba(4, 5, 24, 1) 99%);
 }
 
 .gradient__text{
